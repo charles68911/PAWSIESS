@@ -1,0 +1,33 @@
+.card {
+    background: #f9f3e9;
+    width: 350px;
+    height: 350px;
+    border: 1px transparent;
+    border-radius: 8px;
+  }
+
+  .card-header img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 16px;
+  }
+  
+  .card-header p {
+    padding: 14px 14px;
+    font-size: 20px;
+    display: flex;
+  }
+  
+  .card-footer {
+    padding: 14px 14px;
+    display: flex;
+    justify-content: center;
+  } 
+
+  @media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}

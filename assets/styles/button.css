@@ -1,0 +1,36 @@
+.primary-button {
+    background: #DCD7C9;
+    padding: 12px 18px;
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    min-width: 400px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .secondary-button {
+    background: #DCD7C9;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    border: transparent;
+  }
+  
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px; 
+}
+
+  .primary-button:hover {
+    background: #f9f3e9;
+  }
+  
+  .secondary-button:hover {
+    background: #DCD7C9;
+    transform: scale(1.05);;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
